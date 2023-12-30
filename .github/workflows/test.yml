@@ -1,8 +1,5 @@
 name: test
-on: 
-  push:
-    branches:
-      - dev2
+on: push
 jobs:
   test:
     runs-on: ubuntu-22.04
