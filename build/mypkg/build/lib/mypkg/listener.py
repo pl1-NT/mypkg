@@ -10,7 +10,7 @@ def main():
         node.get_logger().info('待機中')
 
     req = Query.Request()
-    req.name = "西統貴"
+    req.birthmonth = 6
     future = client.call_async(req)
     while rclpy.ok():
         rclpy.spin_once(node)
@@ -20,7 +20,7 @@ def main():
             except:
                 node.get_logger().info('failed to call')
             else:
-                node.get_logger().info("age: {}".format(response.age))
+                node.get_logger().info("age: {}".format(response.birthstone))
             break
 
     node.destroy_node()

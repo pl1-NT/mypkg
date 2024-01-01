@@ -2,7 +2,7 @@ name: test
 on: 
   push:
     branches:
-      - dev2
+      - master
 jobs:
   test:
     runs-on: ubuntu-22.04
