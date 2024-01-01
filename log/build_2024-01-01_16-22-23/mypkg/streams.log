@@ -1,0 +1,29 @@
+[0.788s] Invoking command in '/home/nishi/ros2_ws/src/mypkg': PYTHONPATH=/home/nishi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/nishi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/nishi/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.964s] running egg_info
+[0.965s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.965s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.965s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.965s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.965s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.994s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.995s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.995s] running build
+[0.995s] running build_py
+[0.995s] copying mypkg/talker.py -> /home/nishi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.995s] copying mypkg/listener.py -> /home/nishi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.996s] running install
+[0.996s] running install_lib
+[0.997s] copying /home/nishi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.997s] copying /home/nishi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.998s] byte-compiling /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[0.999s] byte-compiling /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.000s] running install_data
+[1.001s] copying launch/talk_listen.launch.py -> /home/nishi/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.001s] running install_egg_info
+[1.002s] removing '/home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.002s] Copying build/mypkg/mypkg.egg-info to /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.003s] running install_scripts
+[1.024s] Installing listener script to /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.024s] Installing talker script to /home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.025s] writing list of installed files to '/home/nishi/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.044s] Invoked command in '/home/nishi/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/nishi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/nishi/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/nishi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/nishi/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

@@ -1,6 +1,7 @@
 #!/bin/bash
 #SPDX-FileCopyrightText: 2024 Touki Nishi
 #SPDX-Lisense^Identifire: BSD-3-Clause
+
 dir=~
 [ "$1" != "" ] && dir="$1"  
 
@@ -12,6 +13,6 @@ source $dir/.bashrc
 timeout 5 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep ' 6月の誕生石: moonstone' 
+grep '6月の誕生石: moonstone' 
 
 

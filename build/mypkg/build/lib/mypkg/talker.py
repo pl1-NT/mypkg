@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.srv import Query
+from person_msgs.srv import Query2
 
 def cb(request,response):
     if request.birthmonth == 1:
@@ -27,10 +27,11 @@ def cb(request,response):
         response.birthstone = "topaz"
     elif request.birthmonth == 12:
         response.birthstone = "tanzanite"
-
+    else :
+        response.birthstone = "入力エラー"
     return response
 
 rclpy.init()
 node = Node("talker")
-srv = node.create_service(Query, "query", cb)
+srv = node.create_service(Query2, "query2", cb)
 rclpy.spin(node)
