@@ -12,6 +12,6 @@ source $dir/.bashrc
 timeout 5 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep 'birthstone: moonstone' 
+grep ' 6月の誕生石: moonstone' 
 
 
