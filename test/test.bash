@@ -13,6 +13,6 @@ source $dir/.bashrc
 timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep '待機中' 
+grep '11月の誕生石: topaz' 
 
 
