@@ -16,3 +16,5 @@ cat /tmp/mypkg.log |
 grep '11月の誕生石: topaz' 
 
 
+
+
