@@ -8,7 +8,7 @@ colcon build
 
 source $dir/.bashrc
 
-timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
+timeout 5 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep '6月の誕生石' 
+grep '1月の誕生石' 
