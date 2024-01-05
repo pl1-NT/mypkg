@@ -22,7 +22,7 @@ def main():
             else:
                 node.get_logger().info(str(req.birthmonth) + "月の誕生石: {}".format(response.birthstone))
             break
-    '''
+    
     req = Query2.Request()
     req.birthmonth = 2
     future = client.call_async(req)
@@ -167,7 +167,7 @@ def main():
                 node.get_logger().info(str(req.birthmonth) +"月の誕生石: {}".format(response.birthstone))
             break
             
-    '''
+    
     node.destroy_node()
     rclpy.shutdown()
 
