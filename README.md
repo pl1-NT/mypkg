@@ -11,7 +11,7 @@
 * 当パッケージはROS2環境が用意されていることを前提としています。
   ```
   $ cd ros2_ws/src
-  $ git clone {https}
+  $ git clone https://github.com/pl1-NT/mypkg.git
   $ (cd ~/ros2_ws && colcon build)
   ```
 # ノード説明
