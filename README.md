@@ -13,6 +13,7 @@
   $ cd ros2_ws/src
   $ git clone https://github.com/pl1-NT/mypkg.git
   $ (cd ~/ros2_ws && colcon build)
+  $ source ~/.bashrc
   ```
 # ノード説明
 * 当パッケージは"talker.py","listener.py","talk_listem.launch.py"によって構成されています。
@@ -65,7 +66,7 @@
   [INFO] [1704091527.462470388] [listener]: 12月の誕生石: tanzanite 
   ```
 ## talk_listen.launch.py
-* サービスの立ち上げと呼び出しを同時に行うlaunchファイルです。
+* サービスの立ち上げと呼び出しを同時に行えるlaunchファイルです。
 ### 使用例
  ```
  $ ros2 launch mypkg talk_listen.launch.py
